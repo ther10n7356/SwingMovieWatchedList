@@ -1,0 +1,12 @@
+api:
+  url: "https://api.kinopoisk.dev"
+  version: "1.4"
+  limit: 10
+  token: "***"
+
+spring:
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/mv"
+    username: "postgres"
+    password: "admin"
